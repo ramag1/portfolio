@@ -1,0 +1,18 @@
+
+.hamburger {
+    /* display: none; */
+}
+
+.nav__ul {
+    /* display: ${hamburgerOpem ? 'inline' : 'none' }; */
+    
+}
+
+@media (max-width: 500px) {
+    .hamburger {
+        display: fixed;
+        padding-top: 10px;
+        margin-left: 10px;
+        z-index: 10;
+    }
+}

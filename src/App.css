@@ -1,0 +1,10 @@
+.app__h1 {
+  text-align: center;
+
+}
+
+body {
+  background-image: url('./antarctica.JPG');
+  background-position: center;
+  height: 99vh;
+}
