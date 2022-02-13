@@ -41,7 +41,7 @@ a {
   padding: 10px 40px;
   text-decoration: none;
   color: #084132;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: bold;
 
 }

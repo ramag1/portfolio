@@ -4,6 +4,7 @@ import './Projects.css';
 function Projects(props) {
 	return (
 		<div className='projects__div'>
+            <h2>Projects</h2>
 			<ul className='projects__ul'>
 				<li>
 					<a href='' target='_blank'>

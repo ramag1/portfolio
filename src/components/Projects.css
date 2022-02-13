@@ -4,12 +4,23 @@
 
 .projects__ul{
     list-style-type: none;
+    text-align: center;
 }
 
+h2 {
+    text-align: center;
+    font-family: 'Petit Formal Script', cursive;
+}
+li a{
+    padding-left: 0px;
+}
 
 
 @media only screen and (max-width: 600px) {
 
+h2 {
+    font-family: 'Petit Formal Script', cursive;
+}
 .projects__div {
     text-align: left;
 }
@@ -18,7 +29,9 @@
     list-style-type: none;
     margin-left: 0px;
     padding-left: 0px;
+    text-align: left;
 }
+
 li a{
     margin-left: 5px;
     padding-left: 0px;

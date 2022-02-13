@@ -1,8 +1,8 @@
 .app__h1 {
   text-align: center;
-  font-family: 'Nanum Myeongjo', serif;
-  font-size: 2.5rem;
-  border: 2px black solid;
+  font-family: 'Petit Formal Script', cursive;
+  /* font-family: 'Calligraffitti', cursive; */
+  font-size: 2.7rem;
   margin-top: 0;
 }
 
@@ -11,7 +11,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Philosopher', sans-serif;
   height: 100vh;
   color: #084132;
 }
