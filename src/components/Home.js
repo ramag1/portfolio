@@ -1,11 +1,13 @@
 import React from 'react';
+import './Home.css'
 
 function Home(props) {
 	return (
-		<div>
-			Full Stack Engineer <br />
+        <div>
+		    <h2>Welcome to my journey!</h2>
+			<p>Full Stack Engineer <br />
 			Outdoor Enthusiast <br />
-			Underwater Explorer
+			Underwater Explorer</p>
 		</div>
 	);
 }
