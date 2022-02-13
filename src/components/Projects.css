@@ -1,0 +1,27 @@
+.projects__div {
+    text-align: center;
+}
+
+.projects__ul{
+    list-style-type: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+.projects__div {
+    text-align: left;
+}
+
+.projects__ul{
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+li a{
+    margin-left: 5px;
+    padding-left: 0px;
+}
+
+}
