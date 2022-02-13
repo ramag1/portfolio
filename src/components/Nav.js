@@ -1,19 +1,23 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 // import { Twirl as Hamburger } from 'hamburger-react';
-import Hamburger from './Hamburger';
-import './Hamburger.css';
+// import Hamburger from './Hamburger';
+// import './Hamburger.css';
 import './Nav.css';
 
 function Nav(props) {
-	const [hamburgerOpen, setHamburgerOpen] = useState(false);
-	const toggleHamburger = () => {
-		setHamburgerOpen(!hamburgerOpen);
-	};
+	const [navbarOpen, setNavbarOpen] = useState(false);
+    // const handleToggle = () => {
+	// 	setNavbarOpen((prev) => !prev);
+	// 	};
+    const handleToggle = () => {
+			setNavbarOpen(!navbarOpen);
+		};
 
 	return (
-		<nav>
-			<ul className='nav__ul'>
+		<nav className='navBar'>
+			<button onClick={handleToggle}>{navbarOpen ? 'Close' : 'Open'}</button>
+			<ul className={`menuNav ${navbarOpen ? ' showMenu' : ''}`}>
 				<li>
 					<Link to='/'>Home</Link>
 				</li>
@@ -30,9 +34,6 @@ function Nav(props) {
 					<Link to='/resume'>Resume</Link>
 				</li>
 			</ul>
-			<div className='hamburger' onClick={toggleHamburger}>
-				<Hamburger />
-			</div>
 		</nav>
 	);
 }
