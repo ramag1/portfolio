@@ -19,9 +19,9 @@ function Nav(props) {
 		<nav className='navBar'>
 			<button className="navbar__button" onClick={handleToggle}> 
 				{navbarOpen ? ( 
-				<MdClose style={{ color: '#fff', width: '40px', height: '40px ' }} />
+				<MdClose style={{ color: '#fff', width: '40px', height: '30px ' }} />
 				) : ( 
-				<FiMenu style={{ color: '#383838', width: '40px', height: '40px' }}/> )}
+				<FiMenu style={{ color: '#383838', width: '40px', height: '30px' }}/> )}
 			</button>
 			<ul className={`menuNav ${navbarOpen ? ' showMenu' : ''}`}>
 				<li>
