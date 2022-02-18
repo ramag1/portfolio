@@ -8,7 +8,7 @@ function Projects(props) {
 			<ul className='projects__ul'>
 				<li>
 					<a href='https://divers-discovery.netlify.app' target='_blank'>
-						Capstone Here
+						Divers Discovery
 					</a>
 				</li>
 				<li>
