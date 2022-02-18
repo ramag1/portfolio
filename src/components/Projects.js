@@ -4,10 +4,10 @@ import './Projects.css';
 function Projects(props) {
 	return (
 		<div className='projects__div'>
-            <h2>Projects</h2>
+			<h2>Projects</h2>
 			<ul className='projects__ul'>
 				<li>
-					<a href='' target='_blank'>
+					<a href='https://divers-discovery.netlify.app' target='_blank'>
 						Capstone Here
 					</a>
 				</li>

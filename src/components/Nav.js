@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Hamburger from 'hamburger-react';
 import { FiMenu } from 'react-icons/fi';
+import { MdClose } from 'react-icons/md';
 import './Nav.css';
-// import { MdClose } from 'react-icons/md';
-// import { FiMenu } from 'react-icons/fi';
+
 
 function Nav(props) {
 	const [navbarOpen, setNavbarOpen] = useState(false);
@@ -18,7 +17,12 @@ function Nav(props) {
 
 	return (
 		<nav className='navBar'>
-			<button className='FiMenu' onClick={handleToggle}><FiMenu/></button>
+			<button className="navbar__button" onClick={handleToggle}> 
+				{navbarOpen ? ( 
+				<MdClose style={{ color: '#fff', width: '40px', height: '40px ' }} />
+				) : ( 
+				<FiMenu style={{ color: '#383838', width: '40px', height: '40px' }}/> )}
+			</button>
 			<ul className={`menuNav ${navbarOpen ? ' showMenu' : ''}`}>
 				<li>
 					<Link
