@@ -1,0 +1,17 @@
+h3 {
+    text-align: center;
+}
+
+.about__p {
+    padding-right: 10em;
+    padding-left: 10em; 
+}
+
+@media only screen and (max-width: 600px) {
+   h3, .about__p {
+        padding-right: 10em;
+        padding-left: 1em;
+        text-align: left;
+    }
+
+}
