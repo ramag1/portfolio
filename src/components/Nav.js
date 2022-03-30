@@ -57,16 +57,7 @@ function Nav(props) {
 						activeClassName='active-link'
 						onClick={() => closeMenu()}
 						exact>
-						Skills
-					</Link>
-				</li>
-				<li>
-					<Link
-						to='/resume'
-						activeClassName='active-link'
-						onClick={() => closeMenu()}
-						exact>
-						Resume
+						Skills & Resume
 					</Link>
 				</li>
 			</ul>

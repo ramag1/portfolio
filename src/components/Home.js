@@ -3,9 +3,8 @@ import './Home.css'
 
 function Home(props) {
 	return (
-        <div>
-		    <h2>Welcome to my journey!</h2>
-			<p>Equal parts Full Stack Engineering & Underwater Exploring.</p>
+		<div>
+			<h2>Full Stack Engineering & Underwater Exploring</h2>
 		</div>
 	);
 }

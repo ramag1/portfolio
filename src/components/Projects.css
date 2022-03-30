@@ -5,6 +5,7 @@
 .projects__ul{
     list-style-type: none;
     text-align: center;
+    padding: 0 0 0 0;
 }
 
 h2 {
@@ -14,6 +15,7 @@ h2 {
 li a{
     padding-left: 0em;
     padding-right: 0em;
+    text-decoration: underline;
 }
 a {
     padding: 0em;
@@ -39,6 +41,7 @@ h2 {
 li a{
     padding-left: 1em;
     text-decoration: underline;
+    text-align: left;
 }
 
 }

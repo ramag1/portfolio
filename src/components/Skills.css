@@ -1,11 +1,12 @@
-h3, p {
+h3, p, a {
     text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
-   h3, p {
+   h3, p , a{
         padding-right: 10em;
         text-align: left;
+        padding-left: .25em;
     }
 
 }
