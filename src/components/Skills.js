@@ -6,7 +6,7 @@ function Skills(props) {
 		<div className='skills__div'>
 			<h2>Skills</h2>
 			<h3>Languages</h3>
-			<p>HTML | CSS3 | JavaScript | Python </p>
+			<p>HTML | CSS3 | JavaScript | TypeScript | Python </p>
 			<h3>Frameworks</h3>
 			<p>React | Node | Express | AJAX | Django</p>
 			<h3>Databases, Management <br/>& Deployment:</h3>
