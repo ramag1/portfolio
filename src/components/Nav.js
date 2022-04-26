@@ -6,14 +6,14 @@ import './Nav.css';
 
 
 function Nav(props) {
-	const [navbarOpen, setNavbarOpen] = useState(false);
+	// const [navbarOpen, setNavbarOpen] = useState(false);
 
-    const handleToggle = () => {
-			setNavbarOpen(!navbarOpen);
-		};
-    const closeMenu = () => {
-			setNavbarOpen(false);
-		};
+    // const handleToggle = () => {
+	// 		setNavbarOpen(!navbarOpen);
+	// 	};
+    // const closeMenu = () => {
+	// 		setNavbarOpen(false);
+	// 	};
 
 	return (
 		<nav className='navBar'>
